@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -8,11 +9,93 @@ html {
 
 body {
   min-height: 100vh;
-  margin: 0;
-  padding: 1.5rem;
   font-family: 'Inter', sans-serif;
 }
 
 #root {
   width: 100%;
+}
+
+.navbar {
+  background-color: #f55a5a;
+  padding: 1.5rem;
+}
+
+.navbar > h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.navbar svg {
+  font-size: 2.1rem;
+}
+
+main {
+  padding: 1.2rem;
+}
+
+.location-card {
+  max-width: 47rem;
+  margin: auto;
+  height: 16.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.location--img {
+  width: 12.5rem;
+}
+
+.location--img > img {
+  border-radius: 0.5rem;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.card--place {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.card--place svg {
+  color: #f55a5a;
+}
+
+.card--url {
+  margin-left: 1.5rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.card--url > a {
+  color: #918e9b;
+}
+
+.card--title {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.card--date {
+  font-weight: 700;
+}
+
+.card--description {
+  line-height: 1.5;
 }
