@@ -1,10 +1,18 @@
 import PlaceIcon from '@mui/icons-material/Place';
 
-const Location = ({ img, location, gMaps, title, start, end, description }) => {
+const Location = ({
+  imageUrl,
+  location,
+  googleMapsUrl,
+  title,
+  startDate,
+  endDate,
+  description,
+}) => {
   return (
     <div className="location-card">
       <div className="location--img">
-        <img className="card--img" src={img} alt="location-image" />
+        <img className="card--img" src={imageUrl} alt="location-image" />
       </div>
 
       <div className="location-details">
@@ -12,7 +20,7 @@ const Location = ({ img, location, gMaps, title, start, end, description }) => {
           <PlaceIcon />
           {location}
           <span className="card--url">
-            <a href={gMaps} target="_blank">
+            <a href={googleMapsUrl} target="_blank">
               View on Google Maps
             </a>
           </span>
@@ -20,7 +28,7 @@ const Location = ({ img, location, gMaps, title, start, end, description }) => {
 
         <h2 className="card--title">{title}</h2>
         <p className="card--date">
-          {start} - {end}
+          {startDate} - {endDate}
         </p>
 
         <p className="card--description">{description}</p>
