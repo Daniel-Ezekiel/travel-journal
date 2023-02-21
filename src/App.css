@@ -40,20 +40,31 @@ main {
   padding: 1.2rem;
 }
 
+.all-locations {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+hr {
+  width: 100%;
+  border: 0.1rem solid #f5f5f5;
+}
+
 .location-card {
   max-width: 47rem;
-  margin: auto;
   height: 16.5rem;
   display: flex;
   justify-content: space-between;
   gap: 1.2rem;
 }
 
-.location--img {
+.card--img {
   width: 12.5rem;
-}
-
-.location--img > img {
+  height: 100%;
+  object-fit: cover;
   border-radius: 0.5rem;
 }
 
@@ -89,7 +100,7 @@ main {
 
 .card--title {
   margin-bottom: 1rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .card--date {
