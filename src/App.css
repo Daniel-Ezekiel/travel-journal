@@ -48,17 +48,18 @@ main {
   gap: 2.5rem;
 }
 
-hr {
-  width: 100%;
-  border: 0.1rem solid #f5f5f5;
-}
-
 .location-card {
   max-width: 47rem;
-  height: 16.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 0.2rem solid #f5f5f5;
+  height: 18rem;
   display: flex;
   justify-content: space-between;
   gap: 1.2rem;
+}
+
+.location-card:last-child {
+  border-bottom: none;
 }
 
 .card--img {
@@ -118,7 +119,7 @@ hr {
 
   .location-card {
     max-width: 50rem;
-    height: 20rem;
+    height: 24rem;
   }
 
   .card--img {
