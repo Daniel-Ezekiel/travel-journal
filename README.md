@@ -8,8 +8,7 @@ This is a practice webpage created to learn the different ways to use Props and 
 
 ## Features
 
-1. Hero Section
-2. Carousel of Properites
+1. Three Vacation Location Components
 
 ### Tools
 
