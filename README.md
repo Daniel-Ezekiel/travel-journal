@@ -1,6 +1,6 @@
 # Travel Journal
 
-## Demo Url: <a href="https://trip-logger.vercel.app/" target="_blank">See Airbnb-XPs</a>
+## Demo Url: <a href="https://trip-logger.vercel.app/" target="_blank">See Trip Logger</a>
 
 This is a practice webpage created to learn the different ways to use Props and even destructure the Props object when necessary in React. Not only that, to generate the card components for the carousel, the map method was used to loop through an array of data and create components that can then be rendered in the UI. The webpage is fully responsive and can be previewed using the link above.
 
